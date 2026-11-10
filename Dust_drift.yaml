@@ -1,0 +1,23 @@
+grid:
+  r_inner: 0.5
+  r_outer: 40.0
+  n_grid: 180
+
+disk:
+  reference_radius_au: 1.0
+  stellar_mass_msun: 1.0
+  h: 0.05
+  alpha_active: 0.1
+
+dead_zone:
+  r_inner: 5.0
+  r_outer: 15.0
+  reduction: 0.01
+  edge_width: 1.0
+
+evolution:
+  t_end: 1000.0
+
+dust:
+  stokes_number: 0.1
+  initial_dust_to_gas: 0.01
